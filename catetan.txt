@@ -1,0 +1,8 @@
+npm install --save-dev sequelize-cli
+npx sequelize-cli init
+
+
+# using npm
+npx sequelize-cli model:generate --name User --attributes name:string,email:string
+# using yarn
+yarn sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
